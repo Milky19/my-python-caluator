@@ -26,6 +26,9 @@ def calculate():
     else:
         result = 'Error: Invalid operator!'
 
+
+    
+
     return render_template('result.html', result=result)
 
 if __name__ == '__main__':
